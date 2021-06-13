@@ -1,0 +1,28 @@
+.explore-card {
+    display: flex;
+    flex-direction: column;
+    height: 115px;
+    width: 260px;
+    margin: 10px;
+    align-items: center;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.explore-card__icon {
+    height: 50px !important;
+    width: 50px !important;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.explore-card__text {
+    font-size: 24px;
+    margin-left: 12px;
+}
+
+.explore-card:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}

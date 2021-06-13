@@ -1,0 +1,24 @@
+.videoRow {
+    display: flex;
+    margin-top: 10px;
+    width: 60%;
+}
+
+.videoRow__thumbnail {
+    width: 336px;
+}
+
+.videoRow__description {
+    margin-top: 50px;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.videoRow__title {
+    font-size: 32px !important;
+}
+
+.videoRow__info {
+    margin-left: 20px;
+}
