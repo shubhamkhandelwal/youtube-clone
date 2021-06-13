@@ -12,6 +12,10 @@ function App() {
 				<Header />
 				<Switch>
 					<div className='app__page'>
+						<Route path='/' exact>
+							<Sidebar />
+							<Recommendation />
+						</Route>
 						<Route path='/home'>
 							<Sidebar />
 							<Recommendation />
